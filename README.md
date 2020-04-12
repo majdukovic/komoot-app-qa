@@ -1,2 +1,2 @@
-# majdukovic-komoot-app-qa
+# komoot-app-qa
 Automated test for komoot app
