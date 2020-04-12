@@ -4,7 +4,6 @@ Created on April 12, 2020
 
 @author: Mate Ajdukovic
 """
-import time
 
 from nose.tools import assert_true
 
@@ -41,7 +40,6 @@ class TestTourNotSaved(BaseTest):
         header_page.click_record_button()
         recording_page.click_start_recording_button()
 
-        time.sleep(5)
         current_speed, average_speed, in_motion, travelled_distance = recording_page.get_all_recording_data()
         """ Verify default data is correct """
         assert_true(current_speed == '0', "Current speed is not 0")
