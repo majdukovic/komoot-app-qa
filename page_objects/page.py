@@ -4,9 +4,8 @@ Created on April 12, 2020
 
 @author: Mate Ajdukovic
 """
-from appium.webdriver.common.touch_action import TouchAction
 from selenium.common.exceptions import TimeoutException, NoSuchElementException, \
-    StaleElementReferenceException, InvalidElementStateException
+    StaleElementReferenceException
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 

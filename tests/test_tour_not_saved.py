@@ -50,7 +50,7 @@ class TestTourNotSaved(BaseTest):
 
         "Stop recording user's session"
         recording_page.long_press_stop_recording_button()
-        start_recording_button_displayed  = recording_page.is_start_recording_element_displayed()
+        start_recording_button_displayed = recording_page.is_start_recording_element_displayed()
 
         "Verify user's tour is not recorded by finding 'Start recording' button, as user did not move"
         assert_true(start_recording_button_displayed, "Start recording button is not displayed")
